@@ -1,0 +1,170 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gststic.com" />
+    <link href="https://fonts.googleapis.com/css2? family=poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <section class="sub-head">
+        <nav>
+            <a href="index.html"><img src="images\Origin+Group+logo.png" /></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="testimonials.html">TESTIMONIALS</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <h1 style="color: white;">CONTACT DECTAILS:</h1>
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>XYZ Road, ABC Building</h5>
+                            <p>Bangalore, Karnataka, INDIA</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <h5>+919548145465</h5>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>
+                            <h5>origingroup@gmail.com</h5>
+                            <p>Email us your query</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-co">
+                    <form action="insert.php" method="post">
+                        <input type="text" name="name" placeholder="Enter Your name" required />
+                        <input type="email" name="email" placeholder="Enter email address" required />
+                        <input type="text" name="mobile" placeholder="Enter Your Mobile Number" required />
+                        <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                        <button type="submit" name="submit" class="hero-btn red-btn">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!--- contact us -->
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.55224939916!2d77.49085513002562!3d12.95429459382437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1629090312494!5m2!1sen!2sin"
+            width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <div class="whatsapp">
+        <a href="https://wa.me/9632909000" target="_blank">
+            <h5><i class="fa fa-whatsapp" aria-hidden="true"></i></h5>
+        </a>
+    </div>
+
+    <!--- Footer -->
+    <footer id="footer" class="section footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer-top__box">
+                    <h3>COMPANY</h3>
+                    <a href="about.html">ABOUT US</a>
+                    <a href="about.html">OBJECTIVES</a>
+                    <a href="about.html">PRIVACY POLICY</a>
+                    <a href="about.html">TERM & CONDITIONS</a>
+
+                </div>
+                <div class="footer-top__box">
+                    <h3>GET HELP</h3>
+                    <a href="contact.html">SUPPORT</a>
+                    <a href="contact.html">FAQ'S</a>
+                    <a href="contact.html">FEEDBACK</a>
+                </div>
+                <div class="foot-top__box">
+                    <h3>FOLLOW US ON SOCIAL MEDIA</h3>
+                    <div class="wrapper">
+                        <div class="icon facebook">
+                            <div class="tooltip">Facebook</div>
+                            <span><a href="https://www.facebook.com/Origin"><i class="fa fa-facebook"></i></a></span>
+                        </div>
+                        <div class="icon twitter">
+                            <div class="tooltip">Twitter</div>
+                            <span><a href="https://twitter.com/origininsider"><i class="fa fa-twitter"></i></a></span>
+                        </div>
+                        <div class="icon instagram">
+                            <div class="tooltip">Instagram</div>
+                            <span><a href="https://www.instagram.com/originpc/?hl=en"><i
+                                        class="fa fa-instagram"></i></a></span>
+                        </div>
+                        <div class="icon linkedin">
+                            <div class="tooltip">Linkedin</div>
+                            <span><a href="https://www.linkedin.com/company/origindigital"><i
+                                        class="fa fa-linkedin"></i></a></span>
+                        </div>
+                        <div class="icon youtube">
+                            <div class="tooltip">YouTube</div>
+                            <span><a href="https://www.youtube.com/watch?v=C0OZ21isfyU"><i
+                                        class="fa fa-youtube"></i></a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-top__bo">
+                    <h3>CONTACT US</h3>
+                    <div>
+                        <span>
+                            <a href="contact.html"> <i class="fa fa-map-marker"></i></a>
+                        </span>
+                        2nd street,Banglore
+                    </div>
+                    <div>
+                        <span>
+                            <a href="mailto: origin@bng.co.in"><i class="fa fa-envelope"></i></a>
+                        </span>
+                        <a href="mailto: origin@bng.co.in">origingroup@gmail.com</a>
+                    </div>
+                    <div>
+                        <span>
+                            <a href="contact.html"> <i class="fa fa-phone"></i></a>
+                        </span>
+                        <a href="contact.html">+919548145465</a>
+                    </div>
+                    <div>
+                        <span>
+                            <a href="contact.html"> <i class="fa fa-paper-plane"></i></a>
+                        </span>
+                        BANGLORE
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer-bottom__box">
+
+            </div>
+            <div class="footer-bottom__box">
+
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+</body>
+
+</html>
